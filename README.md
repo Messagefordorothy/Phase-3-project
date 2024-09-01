@@ -36,7 +36,7 @@ Handling Outliers
 Longitudes had outliers
 Based on the map below, some points are not located in Tanzania. Tanzania is situated at approximately latitude 6°23′31.20″ South and longitude 35°00′07.20″ East. Therefore, coordinates such as longitude 0.000000 and latitude -2.000000e-08 are not within Tanzania's boundaries. There are about 1,671 data entries with these coordinates. The decision was made to remove these points from the dataset because they do not correspond to locations within Tanzania. The data points are only 3.22 percent of the total dataset and therefore, they can be removed.
 
-Categorical columns to drop 🚮
+Categorical columns to drop 
 • Date_recorded - This column is redundant because we already have the 'year of construction' which provides similar temporal information. Thus, 'Date_recorded' can be dropped.
 
 • Funder - Since 'Funder' and 'Installer' contain the same values and 'Installer' has a higher influence on how a water pump functions, you should drop the 'Funder' column.
